@@ -15,7 +15,7 @@ from setuptools import setup
 # from scadnano.scadnano_version import current_version
 # this is ugly, but appears to be standard practice:
 # https://stackoverflow.com/questions/17583443/what-is-the-correct-way-to-share-package-version-with-setup-py-and-the-package/17626524#17626524
-__version__ = open("scadnano/_version.py").readlines()[-1].split()[-1].strip("\"'")
+__version__ = open("scadnano_copy/_version.py").readlines()[-1].split()[-1].strip("\"'")
 
 # read the contents of your README file
 from os import path
