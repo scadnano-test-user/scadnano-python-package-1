@@ -24,14 +24,14 @@ this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-setup(name='scadnano',
-      packages=['scadnano'],
+setup(name='scadnano-copy',
+      packages=['scadnano-copy'],
       version=__version__,
       # version='0.8.0',
       download_url=f'https://github.com/UC-Davis-molecular-computing/scadnano-python-package/archive/v{__version__}.zip',
       # download_url=f'https://github.com/UC-Davis-molecular-computing/scadnano-python-package/archive/v0.7.0.zip',
       license='MIT',
-      description="Python scripting library for generating designs readable by scadnano.",
+      description="Copy for development purpose.",
       author="David Doty",
       author_email="doty@ucdavis.edu",
       url="https://github.com/UC-Davis-molecular-computing/scadnano-python-package",
