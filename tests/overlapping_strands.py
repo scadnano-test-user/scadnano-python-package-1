@@ -1,4 +1,4 @@
-import scadnano as sc
+import scadnano_copy as sc
 
 """
 {

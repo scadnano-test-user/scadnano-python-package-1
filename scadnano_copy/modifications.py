@@ -1,4 +1,4 @@
-from scadnano import Modification5Prime, Modification3Prime, ModificationInternal
+from scadnano_copy import Modification5Prime, Modification3Prime, ModificationInternal
 
 biotin_5p = Modification5Prime(display_text='B', id='/5Biosg/', idt_text='/5Biosg/')
 biotin_3p = Modification3Prime(display_text='B', id='/3Bio/', idt_text='/3Bio/')

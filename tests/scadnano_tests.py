@@ -7,9 +7,9 @@ import re
 import json
 from typing import Iterable
 
-import scadnano as sc
-import scadnano.origami_rectangle as rect
-import scadnano.modifications as mod
+import scadnano_copy as sc
+import scadnano_copy.origami_rectangle as rect
+import scadnano_copy.modifications as mod
 
 
 def strand_matching(strands: Iterable[sc.Strand], helix: int, forward: bool, start: int, end: int):
