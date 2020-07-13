@@ -23,6 +23,9 @@ jobs:
           title: "Development Build [TODO: Replace label and number with version number]"
           files: |
             LICENSE.txt
+
+      # Publish to PyPI
+      - uses: actions/checkout@v2
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
