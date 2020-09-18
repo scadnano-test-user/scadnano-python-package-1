@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.abspath('../scadnano'))
 # current_version = "0.8.1"
 # this is ugly, but appears to be standard practice:
 # https://stackoverflow.com/questions/17583443/what-is-the-correct-way-to-share-package-version-with-setup-py-and-the-package/17626524#17626524
-__version__ = open("../scadnano/_version.py").readlines()[-1].split()[-1].strip("\"'")
+__version__ = open("../scadnano_copy/_version.py").readlines()[-1].split()[-1].strip("\"'")
 
 
 
