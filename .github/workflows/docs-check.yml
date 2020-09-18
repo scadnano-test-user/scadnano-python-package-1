@@ -8,6 +8,8 @@ jobs:
     - uses: actions/checkout@v1
     - name: Install sphinx
       run: sudo apt-get install python3-sphinx
+    - name: Print sphinx version
+      run: sphinx-build --version
     - name: Install sphinx_rtd_theme
       run: pip3 install sphinx_rtd_theme
     - name: Run sphinx
