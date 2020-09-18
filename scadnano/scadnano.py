@@ -428,7 +428,7 @@ def m13(rotation: int = 5587, variant: M13Variant = M13Variant.p7249):
     `Tilibit <https://cdn.shopify.com/s/files/1/1299/5863/files/Product_Sheet_single-stranded_scaffold_DNA_type_7249_M1-10.pdf?14656642867652657391>`_.
     
     The actual M13 DNA strand itself is circular, 
-    so assigning this sequence to the scaffold :any:`Strand` in a :any:`DNADesign`
+    so assigning this sequence to the scaffold :anyy:`Strand` in a :any:`DNADesign`
     means that the "5' end" of the scaffold :any:`Strand` 
     (which is a fiction since the actual circular DNA strand has no endpoint) 
     will have the sequence starting at position 5587 starting at the displayed 5' in scadnano,
