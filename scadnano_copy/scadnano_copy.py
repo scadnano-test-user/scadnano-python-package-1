@@ -4686,7 +4686,7 @@ class DNADesign(_JSONSerializable):
         Reverses "polarity" of every :any:`Strand` in this :any:`DNADesign`.
 
         No attempt is made to make any assigned DNA sequences match by reversing or rearranging them.
-        Every :any:`StrandNotOnARealClass` keeps the same DNA sequence it had before (unreversed), if one was assigned.
+        Every :any:`Strand` keeps the same DNA sequence it had before (unreversed), if one was assigned.
         It is recommended to assign/reassign DNA sequences *after* doing this operation.
         """
         for strand in self.strands:
