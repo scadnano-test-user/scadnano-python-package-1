@@ -441,8 +441,8 @@ def m13(rotation: int = 5587, variant: M13Variant = M13Variant.p7249):
     in
     [`Folding DNA to create nanoscale shapes and patterns. Paul W. K. Rothemund, Nature 440:297-302 (2006) <http://www.nature.com/nature/journal/v440/n7082/abs/nature04586.html>`_].
     
-    :param rotation: rotation of circular strand. Valid values are 0 through length-1.
-    :param variant: variant of M13 strand to use
+    :::::param rotation: rotation of circular strand. Valid values are 0 through length-1.
+    ::::::::param variant: variant of M13 strand to use
     :return: M13 strand sequence
     """  # noqa (suppress PEP warning)
     seq = _m13_variants[variant]
