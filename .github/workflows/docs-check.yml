@@ -6,8 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: ammaraskar/sphinx-action@master
-      with:
-        docs-folder: "doc/"
-        pre-build-command: "pip3 install sphinx_rtd_theme"
-        build-command: "sphinx-build -T -E -W -b html . _build"
+    - name: Install sphinx_rtd_theme
+      run: pip3 install sphinx_rtd_theme
+    - name: Run sphinx
+      run: (cd doc; sphinx-build -T -E -W -b html . _build)
