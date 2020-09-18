@@ -1,6 +1,5 @@
 name: "Docs Check"
-on: 
-- push
+on: push
 
 jobs:
   docs:
@@ -11,3 +10,4 @@ jobs:
       with:
         docs-folder: "doc/"
         pre-build-command: "pip3 install sphinx_rtd_theme"
+        build-command: "sphinx-build -T -E -W -b html . _build"
