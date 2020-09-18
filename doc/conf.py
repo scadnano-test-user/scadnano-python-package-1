@@ -33,7 +33,7 @@ __version__ = open("../scadnano_copy/_version.py").readlines()[-1].split()[-1].s
 
 # -- Project information -----------------------------------------------------
 
-project = 'scadnano'
+project = 'scadnano_copy'
 copyright = '2019, David Doty'
 author = 'David Doty'
 
