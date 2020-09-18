@@ -18,7 +18,7 @@ import sys
 
 
 
-sys.path.insert(0, os.path.abspath('../scadnano'))
+sys.path.insert(0, os.path.abspath('../scadnano_copy'))
 # print(sys.path)
 
 # current_version = "0.8.1"
