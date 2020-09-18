@@ -1,1 +1,1 @@
-from scadnano.scadnano import *
+from scadnano_copy.scadnano_copy import *
